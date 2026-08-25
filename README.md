@@ -1,6 +1,6 @@
 # Impala
 
-> Windows kernel-mode hardware ID spoofer driver
+> Windows kernel-mode hardware ID (HWID) spoofer driver
 
 Impala is a kernel-mode driver (WDM/KMDF) that intercepts and modifies hardware identifiers at the IRP level. It operates through physical memory manipulation and inline hooking to transparently spoof disk serial numbers, WWNs, GUIDs, NVMe identifiers, MAC addresses, and CPUID responses — all with deterministic, seed-based generation for consistent output across queries.
 

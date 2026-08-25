@@ -166,3 +166,9 @@ Output: `spoof.me.sys` (KMDF kernel-mode driver)
 
 This project is for educational and research purposes only. Hardware ID spoofing may violate terms of service of software platforms and game anti-cheat systems. Use responsibly and in compliance with all applicable laws.
 This project is UNFINISHED, and missing some files, this project will not be updated and will not be added upon, this is simply a pos i had laying around and never finished.
+
+## Credits
+
+Credits on this project are given to Oracl & SoarCheats
+Find soar here = https://github.com/imp1338
+Find oracl here = https://github.com/roomyoni

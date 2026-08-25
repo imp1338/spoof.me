@@ -19,7 +19,7 @@ spoof.me/
 │   │   ├── generative/gen.hxx            # Deterministic PRNG-based ID generation
 │   │   ├── io/io.hxx                      # Device object + symbolic link setup
 │   │   └── memory/
-│   │       ├── manipulation/man_ip.hxx    # Physical memory R/W via PTE remapping
+│   │       ├── manipulation/(REMOVED)    # Physical memory R/W via PTE remapping
 │   │       └── trampoline/trampoline.hxx  # Inline hooking engine + IRP completion swapping
 │   └── execute/
 │       ├── io/io_functionare.h            # IRP dispatch routines (create/close/device_control)

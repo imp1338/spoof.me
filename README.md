@@ -55,16 +55,6 @@ All kernel API calls are resolved at runtime by parsing the ntoskrnl PE export t
 - IDA-style pattern scanning in `.text` sections for unexported functions
 - Cached resolution — each export is looked up once and reused
 
-### Physical Memory Engine
-
-Read/write physical memory without `MmMapIoSpace` by directly remapping PTEs:
-
-- Per-CPU page mapping slots (up to 64 processors) with dedicated 4KB pages
-- PTE PFN swapping with interrupt disable (`_disable`/`_enable`) for atomicity
-- Custom virtual-to-physical translation via 4-level page table walk (PML4 → PDPT → PD → PT)
-- Physical address validation using CPUID-derived physical address bit width
-- PFN database access for page metadata manipulation
-
 ### Page Hiding
 
 Allocated trampoline pages are hidden from detection:
@@ -175,3 +165,4 @@ Output: `spoof.me.sys` (KMDF kernel-mode driver)
 ## Disclaimer
 
 This project is for educational and research purposes only. Hardware ID spoofing may violate terms of service of software platforms and game anti-cheat systems. Use responsibly and in compliance with all applicable laws.
+This project is UNFINISHED, and missing some files, this project will not be updated and will not be added upon, this is simply a pos i had laying around and never finished.
